@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Sqlite (Xerial) - sales-example.db" uuid="b75f6cb4-3eea-4693-9689-2d420bb5f80c">
+    <database-info product="SQLite" version="3.8.9" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+    <table name="catalog" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="item_key" sqlType="VARCHAR(200)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="category" sqlType="VARCHAR(200)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="sale" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="item_key" sqlType="VARCHAR(200)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="country" sqlType="VARCHAR(3)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="city_name" sqlType="VARCHAR(60)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="sale_timestamp" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="price" sqlType="NUMERIC" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="sqlite_sequence" schema="" catalog="" type="TABLE">
+      <column name="name" sqlType="" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="seq" sqlType="" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+    </table>
+  </data-source>
+</component>
