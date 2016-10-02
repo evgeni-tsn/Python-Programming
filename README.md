@@ -1,6 +1,7 @@
 # Python-Programming
-**Python Programming Course at Software University
-https://softuni.bg/trainings/1281/python-programming-january-2016**
+**Python Programming Course at Software University**
+
+https://softuni.bg/trainings/1281/python-programming-january-2016
 
 - Python Basics: Installation, Syntax, Basic Language Constructs
 - Functions, Parameters, Transmitting Values, Exceptions, Files
